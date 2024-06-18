@@ -32,6 +32,17 @@
 $ npm install
 ```
 
+# Setting environment variables
+| Variable name | Type | Description |
+| --- | --- | --- |
+| APP_LISTEN_PORT | number | Port, on which application will be available |
+| APP_API_URL | string | domain name / ip address, on which application will be available |
+| APP_HTTP_TIMEOUT | number | Timeout for request for app
+
+```bash
+cp .env.example .env
+```
+
 ## Running the app
 
 ```bash
